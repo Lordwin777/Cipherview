@@ -4,6 +4,16 @@
 
 ---
 
+### 👤 Author & Project Credentials
+* **Lead Engineer**: **Lordwin Joseph**
+* **Enrollment Number**: **92301733065**
+* **Official Repository**: [https://github.com/Lordwin777/Cipherview.git](https://github.com/Lordwin777/Cipherview.git)
+* **Comprehensive Documentation**: 
+  * 📄 **[10-Page Technical Specification (Markdown)](docs/CIPHERVIEW_DOCUMENTATION.md)**
+  * 🖨️ **[10-Page Printable Report (Interactive HTML / Save as PDF)](docs/CIPHERVIEW_DOCUMENTATION.html)**
+
+---
+
 ## 🛡️ The Ideology: "Privacy Through Independence"
 
 In an era of ubiquitous cloud storage and permanent digital footprints, **CipherView** operates on the principle of **Controlled Ephemerality**. We believe that sharing a sensitive document shouldn't mean losing control over its lifecycle.
@@ -60,15 +70,31 @@ A specialized sandbox for document consumption:
 
 ---
 
-## 🛠 Tech Stack
+## 📸 Physical Device Screenshot Showcase
 
--   **Language**: Kotlin
--   **UI**: Jetpack Compose (Material 3)
--   **Concurrency**: Kotlin Coroutines & Flow
--   **Security**: Java Cryptography Architecture (JCA), Android Keystore
--   **Networking**: TCP Sockets, Bluetooth RFCOMM, NSD
--   **Architecture**: MVVM with Repository Pattern
+| 1. Onboarding (Zero-PII) | 2. Local Vault Dashboard | 3. Share & Protect Studio |
+| :---: | :---: | :---: |
+| <img src="docs/images/01_onboarding.png" width="220"/> | <img src="docs/images/02_vault_dashboard.png" width="220"/> | <img src="docs/images/03_share_encrypt.png" width="220"/> |
+
+| 4. Receive & Unlock Station | 5. Protected Document Viewer | 6. Historical Nickname Audit |
+| :---: | :---: | :---: |
+| <img src="docs/images/04_receive_station.png" width="220"/> | <img src="docs/images/07_protected_viewer.png" width="220"/> | <img src="docs/images/08_profile_nickname_history.png" width="220"/> |
 
 ---
 
-*Note: CipherView is designed for local, high-security environments and does not provide cloud backup by design.*
+## 🛠 Tech Stack
+
+- **Language**: Kotlin 2.3.20
+- **UI Framework**: Jetpack Compose (Material 3) + Navigation3
+- **Concurrency**: Kotlin Coroutines & StateFlow
+- **Security Primitives**: AES-256-GCM, PBKDF2WithHmacSHA256 (100K Rounds), Android Keystore (StrongBox HSM)
+- **Networking**: Zero-Cloud TCP Sockets, Android NSD / mDNS, CameraX 1.4.1 + ZXing Core 3.5.3
+- **Architecture**: Clean Architecture / MVVM with Repository Pattern
+
+---
+
+### 👨‍💻 Project Information & Contact
+* **Author**: **Lordwin Joseph**
+* **Enrollment Number**: **92301733065**
+* **GitHub Repository**: [https://github.com/Lordwin777/Cipherview.git](https://github.com/Lordwin777/Cipherview.git)
+* *Designed and built with absolute commitment to digital sovereignty and human privacy.*
